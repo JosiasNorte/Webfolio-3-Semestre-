@@ -1,0 +1,132 @@
+@import url(css/bootstrap.min.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-size: cover;
+    background: #C57623;
+    background: -moz-linear-gradient(top, #ffffff 0%, #473e3d 50%, #ffffff 100%);
+    background: -webkit-linear-gradient(top, #ffffff 0%, #473e3d 50%, #ffffff 100%);
+    background: linear-gradient(to bottom, #ffffff 0%, #473e3d 50%, #ffffff 100%);
+    opacity: 0.9;
+    background-position: center;
+}
+
+#header {
+  width: 100%;
+ 
+  background-color: transparent;
+  transition: background ease-out 0.2s;
+}
+
+.navegacao a{
+    border: 15px solid;
+    border-color: transparent;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    box-shadow: 2px 2px 0 1px rgb(204, 85, 25);
+    border-radius: 32%;
+    transition: box-shadow 0.5s ease, transform 0.5s ease;
+    cursor: pointer;
+}
+
+.navegacao:active {
+    box-shadow: 0 0 0 0 rgb(173, 123, 14), inset 3px 3px 3px rgb(255, 255, 255);
+    transform: translate(3px 3px);
+}
+
+
+#header h1{
+    text-align: center;
+    color: #fff;
+    font-family: serif;
+    text-shadow: 5px 5px 3px black;
+    margin-top: 80px;
+}
+
+#header h2{
+    text-align: center;
+    color: #fff;
+    font-family: serif;
+    text-shadow: 5px 5px 3px black;
+    margin: 10px 5px 3px;
+}
+
+#header p{
+    color: white;
+    font-size:large;
+    transform: translate(2%, -55%); 
+    font: arial;
+    margin: 2em;
+    text-align: center;
+    font: arial 20;
+    text-shadow: 5px 5px 3px black;
+    margin-top: 80px;
+}
+
+#sobremim dl{
+    color: #fff;
+    margin-top: 120px;
+}
+
+#sobremim img{
+    margin-top: 120px;
+    margin-left: 8rem;
+    width: 80%;
+    border-radius: 15px;
+}
+
+.cards{
+    margin-top: 100px;
+}
+
+#pj dl{
+    color: #fff;
+    margin-top: 56px;
+    position: relative;
+}
+
+.video-pj{
+    width: 18.5%;
+    position: absolute;
+    top: 90px;
+    left: 60rem;
+    border-radius: 10px;
+}
+
+.conteudo-prototipacoes {
+    width: 70%;
+    text-align: justify;
+    padding-bottom: 50px;
+}
+
+.conteudo-prototipacoes img{
+    border-radius: 10px;
+}
+
+#aulas {
+    color: #fff;
+    background: none;
+    border-top: 0.4px solid #FFF2E7;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+#aulas h1{
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+#aulas img{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 25px;
+    text-align: center;
+}
